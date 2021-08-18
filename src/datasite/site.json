@@ -1,0 +1,13 @@
+{
+    "meta": {
+      "title": "Gus and co",
+      "titleTemplate": "%s",
+      "description": "Website by Bogdan Draghia test",
+      "url": "https://bhombogdan.github.io/",
+      "image": "/assets/test.png",
+      "iconimage": "/assets/test.png",
+      "twitterUsername": "@bhombogdan",
+      "siteUrl": "https://bhombogdan.github.io/"
+    },
+    "ga": "UA-XXXXXXXXX-X"
+  }

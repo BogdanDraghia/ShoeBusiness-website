@@ -1,0 +1,111 @@
+.AboutReview-section {
+  display: flex;
+
+  flex-direction: column;
+  margin: 0 100px;
+}
+.AboutReview-section > h1 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.AboutReview-imagetext {
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: var(--BGS1);
+}
+.CHANGE {
+  display: none;
+}
+.AboutReview-Buttons {
+  margin: 40px 10px;
+  display: flex;
+  text-align: center;
+
+  flex-direction: row;
+  justify-content: space-between;
+}
+.buttonMore {
+  background-color: var(--accent);
+  color: white;
+}
+.Quote {
+  align-self: flex-start;
+  margin: 30px;
+  width: 150px;
+  height: 100px;
+}
+.Quote > img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.subReviewText {
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  flex-direction: row;
+}
+.buttonReview {
+  border-radius: 10px;
+  margin: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitte;
+  box-shadow: var(--BGS1);
+  width: 160px;
+  height: 50px;
+}
+.imagecompare {
+  flex: 1.5 1;
+  height: 350px;
+  border-radius: 15px 0px 0px 15px;
+  background-color: #222222;
+}
+.reviewText {
+  display: flex;
+  flex: 3 1;
+}
+.class {
+  object-fit: contain;
+}
+@media (max-width: 768px) {
+  //ABOUT REVIEW
+  .CHANGE {
+    display: block;
+  }
+  .AboutReview-Buttons {
+    display: none;
+  }
+  .AboutReview-section {
+    margin: 0px;
+    flex-direction: column;
+  }
+  .AboutReview-imagetext {
+    flex-direction: column;
+  }
+  .subReviewText {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .Quote {
+    margin: 15px;
+    height: inherit;
+    width: 30px;
+  }
+  //ABOUT REVIEW
+}
+//test
+.flextest1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media all and (max-width: 768px) {
+  .AboutReview-section {
+    max-width: 400px;
+  }
+}

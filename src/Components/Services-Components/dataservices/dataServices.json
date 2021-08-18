@@ -1,0 +1,40 @@
+[
+{
+    "id": "1",
+    "tittleprincipal": "shoemen",
+    "content":{
+        "tittle": "Shoes for men (included boots)",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "services":{
+            "first_column": ["Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet"],
+            "second_column": ["Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet"]
+        }}
+},
+{
+    "id": "2",
+    "tittleprincipal": "shoewoman",
+    "content":{
+        
+        "tittle": "Shoes for woman (included boots)",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "services":{
+            "first_column": ["Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet"],
+            "second_column": ["Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet"]
+        }
+}
+},
+{
+    "id": "3",
+    "tittleprincipal": "bags",
+    "content":{
+        
+        "tittle": "Luggage and hand bags",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "services":{
+            "first_column": ["Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet"],
+            "second_column": ["Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet"]
+        }
+}
+}
+
+]

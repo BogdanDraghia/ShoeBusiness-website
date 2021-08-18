@@ -1,0 +1,206 @@
+.ServicesGRID {
+  display: flex;
+  position: relative;
+}
+.parentovertest {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(0, 0, 0, 0.23);
+
+  display: flex;
+  z-index: 40;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.overtest {
+  border-radius: 17px;
+  max-width: 1024px;
+  width: auto;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+  display: flex;
+  z-index: 40;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.SubServicesGRID {
+  border-radius: 17px;
+  display: flex;
+
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.relativetest {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.flextestst {
+  margin: 30px;
+  display: flex;
+}
+.checkDo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.textx {
+  flex: 3 1;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0px 40px;
+}
+.textx > p {
+  font-weight: 200;
+}
+.Photo {
+  padding: 20px;
+  flex: 1.5 1;
+  box-shadow: var(--BGS1);
+  border-radius: 17px;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+}
+.AboutS {
+  z-index: 40;
+}
+
+.iconCheck {
+  width: 30px;
+  height: 30px;
+  margin: 0px 10px;
+}
+.Services-Item {
+  position: relative;
+}
+.overlaytransparent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.checkItem {
+  align-self: flex-start;
+
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+header {
+  z-index: 2;
+}
+.photoss {
+  justify-content: space-around;
+  align-content: center;
+
+  align-items: center;
+  display: flex;
+  margin: 0 20px 40px;
+}
+.photoelement {
+  background-color: #f2f2f2;
+  text-align: center;
+  margin: 0 10px;
+
+  height: 150px;
+  width: 150px;
+}
+.exit {
+  z-index: 40;
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  text-align: center;
+  top: 0px;
+  position: absolute;
+  right: 10px;
+  background-color: white;
+}
+.Services-Item {
+  text-align: center;
+  display: flex;
+  width: 270px;
+  height: 270px;
+  margin: 25px;
+  box-shadow: var(--BGS1);
+  border-radius: 17px;
+}
+.Services-Item > img {
+  object-fit: contain;
+  width: 100%;
+  padding: 20px;
+  display: block;
+  align-self: flex-end;
+  height: 70%;
+}
+.testshoe > img {
+  height: 50%;
+}
+.testbag > img {
+  height: 100%;
+}
+.textaligncenter {
+  text-align: center;
+  margin-top: 80px;
+}
+.textaligncenter > p {
+  padding: 10px 160px;
+  text-align: left;
+}
+.Photo {
+  display: flex;
+}
+.Photo > img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  align-self: flex-end;
+}
+@media (max-width: 768px) {
+  .overtest {
+    width: 100%;
+  }
+
+  .flextestst {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .overtest {
+    z-index: 10000;
+    overflow-y: scroll;
+    max-height: 100%;
+    bottom: 0px;
+  }
+  .parentovertest {
+    background-color: #fff;
+  }
+  .checkDo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .relativetest {
+    width: 100%;
+  }
+  .textx {
+    text-align: center;
+  }
+}

@@ -1,0 +1,322 @@
+//Variables: root {
+:root {
+  --bg1: white;
+  --bg2: #f2f2f2;
+  --accent: #1c3ab6;
+
+  --text-color: black;
+  --border-radius: 5px;
+  --border-radius-M: 12px;
+  --Text-primary-Color: red;
+  //Font color
+  --FC1-Tittle: #272727;
+  --FC2-Text: #414046;
+  --TextWhite: white;
+  //Font size
+
+  --Font-S: 16px;
+  --Font-SM: 18px;
+  --Font-M: 32px;
+  --Font-MB: 40px;
+  --Font-B: 60px;
+
+  //Border-radius-default
+  --BR1: 3px;
+  //Background shadow
+  --BGS1: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 5px 10px rgba(166, 173, 201, 0.5);
+  --Background1: shadow;
+}
+//FONT
+
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+html {
+  font-family: "Poppins", sans-serif;
+}
+.paddingSpacebetwen {
+  padding: 50px 0px;
+}
+//layoutwrapper
+
+.layoutwrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+//S-Remove bullet, text-deco none ( GLOBAL )
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+//F-Remove bullet, text-deco none ( GLOBAL )
+
+.flexdirection-column {
+  flex-direction: row;
+  display: flex;
+}
+//S-BUTTONS
+.button1 {
+  margin: 50px 0px;
+  padding: 10px 20px;
+  background-color: var(--accent);
+  font-size: var(--Font-S);
+  width: 150px;
+  text-align: center;
+  color: white;
+  border-width: 0px;
+  border: none;
+
+  border-radius: var(--border-radius);
+}
+.button2 {
+  margin-left: 20px;
+  flex: 2 1;
+  color: var(--FC2-Text);
+  font-size: var(--Font-S);
+}
+//F-BUTTONS
+
+//Img OBJECT FIT COVER DEFAULT
+img {
+  object-fit: cover;
+  height: 100%;
+}
+//Width center grid
+.center-section {
+  //TEMPORAL
+
+  //TEMPORAL
+  margin: 0 auto;
+  max-width: calc(100% - 5em);
+  width: 70em;
+}
+.center-section-header-footer {
+  margin: 0 auto;
+  max-width: calc(100% - 5em);
+  width: 80em;
+}
+.space-section {
+  margin: 80px 0px;
+}
+.Nav-Content {
+  width: 100%;
+}
+.flexdirection-row {
+  display: flex;
+  flex-direction: row;
+}
+//LAPTOP 1024px
+@media all and (max-width: 1024px) {
+  .LandingServices-Container {
+    flex-direction: column;
+  }
+}
+//tableta 768px
+@media all and (max-width: 768px) {
+  //FOOTER
+  footer {
+    margin-top: 20px;
+  }
+  .footerSection {
+    flex-direction: column;
+  }
+  //FOOTER
+  //Landing page
+  //map
+
+  .map {
+    width: 100%;
+  }
+  //map
+  .AboutS {
+    flex-direction: column;
+  }
+}
+//telefonL 425px
+@media all and (max-width: 425px) {
+  :root {
+    --Space-bettwen: 20px;
+  }
+
+  //NAVIGATION
+  .hamburgerMenu {
+    display: block;
+    z-index: 110;
+    align-self: flex-start;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+  nav {
+    height: 50px;
+    justify-content: flex-end;
+    flex-direction: row;
+  }
+  .Nav-Content > *:nth-child(n) {
+    order: 1;
+  }
+  .Nav-Content {
+    transition: opacity 0.5s ease-in-out;
+    transition: all 300ms linear 0s;
+    z-index: 1;
+    z-index: 100;
+    background-color: white;
+    position: absolute;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Nav-Content > li {
+    top: 64px;
+    height: 20px;
+    width: 100%;
+    margin: 20px;
+  }
+
+  .Nav-Content {
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .Logo-Header {
+    height: 50px;
+  }
+
+  //NAVIAGTION
+  //CONTACT
+
+  //map
+  .map {
+    width: 100%;
+  }
+  .adresses {
+    flex-direction: column;
+    top: 0;
+    margin-top: 20px;
+  }
+  //map
+  .ContactBox {
+    flex-direction: column;
+  }
+  form {
+    margin: 0px;
+  }
+  .InputContact {
+    justify-content: flex-start;
+  }
+  //CONTACT
+
+  //STORY page
+  .Show-History {
+    margin: 40px 20px;
+  }
+  .Story-History {
+    height: 100%;
+  }
+
+  .text {
+    flex-direction: column;
+  }
+  .image-text {
+    height: 250px;
+  }
+
+  .arrows {
+    transform: rotate(90deg) translate(-50px, -58px);
+  }
+  .Control-History {
+    margin-right: 0px;
+  }
+  .line-H {
+    width: 43px;
+    height: 20px;
+    margin: -5px -2px;
+  }
+  .AboutS-Container {
+    flex-direction: column;
+  }
+  //Landing page
+  .LandingWelcome-Text {
+    padding: 0px;
+  }
+  .ladingwelcomecenter {
+    margin-top: 0px 50px !important;
+  }
+
+  .LandingWelcome-Photo {
+    height: 600px;
+  }
+  //Landing page
+
+  .flexdirection-row {
+    flex-direction: column;
+  }
+  .flexdirection-column {
+    flex-direction: row;
+  }
+  .LandingServices-Item {
+    margin: 40px 25px;
+  }
+  .Show-History {
+    max-height: 800px;
+  }
+}
+//telefonM 375px
+@media all and (max-width: 375px) {
+}
+//telefonM 320px
+@media all and (max-width: 320px) {
+}
+//mobile 320px
+@media all and (max-width: 425px) {
+  .center-section {
+    width: 100%;
+  }
+
+  .T-AboutT {
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .space-section {
+    margin: 0px;
+  }
+
+  .T-AboutT-Photo {
+    display: none;
+  }
+  .T-AboutT-Company {
+    font-size: 40px;
+  }
+  .T-About-SubCompany {
+    font-size: 16px;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  //About Story
+  .AboutS {
+    flex-direction: column;
+  }
+  .JS-History {
+    flex-direction: column;
+  }
+  .Show-History {
+    flex-direction: column;
+  }
+  .Control-History {
+    flex-direction: row;
+  }
+  .years {
+    flex-direction: row;
+  }
+  //HAMBURGER MENU-NAVIGATION
+
+  //
+}
+
+//1024px

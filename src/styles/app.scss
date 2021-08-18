@@ -1,0 +1,15 @@
+//LAYOUT
+
+@import "../styles/layout_style/footer";
+@import "../styles/layout_style/header";
+
+//Components
+@import "../styles/components/AboutReview";
+@import "../styles/components/AboutServices";
+@import "../styles/components/AboutStory";
+@import "../styles/components/AboutTimeline";
+@import "../styles/components/LocationContact";
+@import "../styles/components/Services";
+
+@import "reset.scss";
+@import "global.scss";

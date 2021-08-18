@@ -1,0 +1,84 @@
+.LandingServices-Container {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LandingServices-Tittle {
+  font-size: var(--Font-MB);
+  font-weight: 600;
+}
+.LandingServices-DivItem {
+  display: flex;
+  flex-direction: row;
+}
+.LandingServices-Item > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position: 50%;
+}
+.LandingServices-Item > h4 {
+  margin: 0px;
+  font-size: var(--Font-M);
+}
+.LandingServices-Item {
+  font-weight: 600;
+  line-height: 1.125em;
+
+  margin: 0px 1rem;
+
+  height: 360px;
+  background-position: left bottom;
+  background-size: 100%;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 5px 10px rgba(166, 173, 201, 0.5);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin: 0px 0px 1rem;
+  min-height: 7.5rem;
+  transition: transform 0.2s;
+  border-radius: 12px;
+  color: white;
+  padding: 20px;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+  margin: 40px 25px;
+}
+.photo1 {
+  background-image: url("https://images.unsplash.com/photo-1533867617858-e7b97e060509?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+}
+.photo2 {
+  background-image: url("https://images.unsplash.com/photo-1531310197839-ccf54634509e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=701&q=80");
+  background-size: cover;
+}
+
+.photo3 {
+  background-image: url("https://images.unsplash.com/photo-1591859132725-77b7c32a064d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+}
+
+.LandingServices {
+  transition: transform 0.2s;
+  text-align: right;
+  font-weight: 400;
+  font-size: 25px;
+  margin: 0px 25px;
+}
+.LandingServices > span {
+  font-weight: 600;
+  color: var(--accent);
+}
+
+//ANIMATION
+.LandingServices-Item:hover {
+  transform: scale(1.05);
+}
